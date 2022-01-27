@@ -5,5 +5,8 @@ $(document).ready(function() {
 	});
 	$("#imagetoggler").click(function(){
 		$("img").toggle();
+
+		$(document).ready(function() {
+			$("p1").click(function() {
+				$("class=dissapear").hide()
 	});
-});
