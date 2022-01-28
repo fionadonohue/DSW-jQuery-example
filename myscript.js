@@ -11,7 +11,6 @@ $(document).ready(function() {
 		$("img").toggle();
 	});
 	});
-
-$("p").click(function(){
-	alert("hey! don't click me!");
+$("h1").click(function(){
+	$("#text").show ();
 });
