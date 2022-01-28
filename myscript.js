@@ -10,7 +10,7 @@ $(document).ready(function() {
 	$("#imagetoggler").click(function(){
 		$("img").toggle();
 	});
-$("#p2").click(function(){
+$(".disappear").click(function(){
   $("p").text("Dont click me!");
 });
 });
